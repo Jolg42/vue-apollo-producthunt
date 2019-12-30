@@ -1,0 +1,28 @@
+query posts ($postedAfter: DateTime!, $postedBefore: DateTime!) {
+  posts(order: VOTES, postedAfter: $postedAfter, postedBefore: $postedBefore) {
+    totalCount
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      endCursor
+      startCursor
+    }
+    edges {
+      cursor
+      node {
+        id
+        name
+        tagline
+        description
+        url
+        votesCount
+        thumbnail {
+          type
+          url
+        }
+        website
+        reviewsRating
+      }
+    }
+  }
+}
