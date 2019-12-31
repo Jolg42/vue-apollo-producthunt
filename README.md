@@ -2,6 +2,8 @@
 
 This project is a small demo of what can be done using the ProductHunt GraphQL API with vue-apollo.
 
+Here is a live version of the master branch on Netlify: [https://dazzling-davinci-d9c763.netlify.com/](https://dazzling-davinci-d9c763.netlify.com/)
+
 ## Tools used
 
 - Vue.js
