@@ -1,20 +1,8 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <ApolloExample msg="Welcome to Your Vue.js App" />
+  <div id="app" class="bg-gray-100 h-screen">
+    <router-view />
   </div>
 </template>
-
-<script>
-import ApolloExample from "./components/ApolloExample.vue";
-
-export default {
-  name: "app",
-  components: {
-    ApolloExample
-  }
-};
-</script>
 
 <style>
 #app {
@@ -22,7 +10,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

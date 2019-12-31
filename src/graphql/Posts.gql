@@ -1,27 +1,32 @@
 query posts ($postedAfter: DateTime!, $postedBefore: DateTime!) {
   posts(order: VOTES, postedAfter: $postedAfter, postedBefore: $postedBefore) {
-    totalCount
-    pageInfo {
-      hasNextPage
-      hasPreviousPage
-      endCursor
-      startCursor
-    }
+    # totalCount
+    # pageInfo {
+    #   hasNextPage
+    #   hasPreviousPage
+    #   endCursor
+    #   startCursor
+    # }
     edges {
-      cursor
+      # cursor
       node {
         id
         name
         tagline
-        description
+        # createdAt
+        # description
         url
         votesCount
+        commentsCount
         thumbnail {
           type
-          url
+          url (width: 450, height: 250)
         }
-        website
-        reviewsRating
+        # website
+        # reviewsRating
+        makers {
+          id
+        }
       }
     }
   }

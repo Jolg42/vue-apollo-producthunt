@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component renders correctly 1`] = `
+<div>
+  <div class="bg-white shadow-lg hover:shadow-md overflow-hidden"><a href="https://www.producthunt.com/posts/wireframer?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+PH+API+Explorer+%28ID%3A+9162%29" target="_blank" rel="noopener noreferrer"><img src="https://ph-files.imgix.net/2a6550da-9822-4c95-88d4-095f01991c20?auto=format&amp;fit=crop&amp;h=250&amp;w=450" alt="" class="h-56 object-cover w-full">
+      <div class="h-56 p-4">
+        <h3 class="font-semibold hover:font-bold text-2xl mt-4 mb-1 text-orange-600 truncate">
+          Wireframer
+        </h3>
+        <p class="mb-4 text-gray-600">
+          606
+          <span>upvotes</span></p>
+        <p class="text-xl">
+          Cool text for your wireframes
+        </p>
+      </div>
+    </a></div>
+</div>
+`;
